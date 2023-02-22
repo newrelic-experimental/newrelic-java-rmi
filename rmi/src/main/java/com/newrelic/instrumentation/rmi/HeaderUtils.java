@@ -15,6 +15,8 @@ public class HeaderUtils {
 	public static ConcurrentHashMap<Connection, Boolean> NREnabledConnections = new ConcurrentHashMap<Connection, Boolean>();
 
 	public static ThreadLocal<NRRMIHeaders> currentHeaders = new ThreadLocal<>();
+	
+	public static ThreadLocal<Object> currentStubCall = new ThreadLocal<>();
 
 	public static ThreadLocal<ObjID> currentID = new ThreadLocal<>();
 
