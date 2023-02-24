@@ -14,7 +14,11 @@ import sun.rmi.transport.TransportConstants;
 @SuppressWarnings("restriction")
 public class NRHeaderSender {
 	
-	public static final ObjID HEADER_ID = new ObjID("io.opentelementry.java-agent.context-call".hashCode());
+	public static final ObjID HEADER_ID = new ObjID("com.newrelic.java-agent.header-call".hashCode());
+	
+	static {
+		NewRelic.getAgent().getLogger().log(Level.FINE, "NewRelic Header ObjID is {0}", HEADER_ID);
+	}
 	
 	
 	private static final ObjID REGISTRY_ID = new ObjID(ObjID.REGISTRY_ID);
