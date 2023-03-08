@@ -2,7 +2,6 @@ package sun.rmi.transport;
 
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
-import com.newrelic.instrumentation.rmi.HeaderUtils;
 import com.newrelic.instrumentation.rmi.NRHeaderDispatcher;
 import com.newrelic.instrumentation.rmi.NRHeaderSender;
 
@@ -19,7 +18,6 @@ public class ObjectTable {
 			return target;
 		}
 		Target nrTarget = NRHeaderDispatcher.getHeaderTarget();
-		HeaderUtils.isNewRelic.set(true);
 		return nrTarget;
 	}
 }

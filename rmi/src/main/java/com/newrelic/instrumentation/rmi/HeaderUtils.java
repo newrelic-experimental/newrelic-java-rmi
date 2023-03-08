@@ -3,7 +3,6 @@ package com.newrelic.instrumentation.rmi;
 import java.lang.management.ManagementFactory;
 import java.rmi.server.ObjID;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Supplier;
 
 import com.newrelic.api.agent.Config;
 import com.newrelic.api.agent.NewRelic;
@@ -20,16 +19,6 @@ public class HeaderUtils {
 	public static ThreadLocal<Object> currentStubCall = new ThreadLocal<>();
 
 	public static ThreadLocal<ObjID> currentID = new ThreadLocal<>();
-
-	public static ThreadLocal<Boolean> isNewRelic = ThreadLocal.withInitial(new Supplier<Boolean>() {
-
-		@Override
-		public Boolean get() {
-			return false;
-		}
-	});
-
-
 
 	public static final String SENDING_THREAD = "Sending-Thread";
 	public static final String SENDING_APP = "Sending-Application";
