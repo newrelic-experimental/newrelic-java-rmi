@@ -1,4 +1,4 @@
-<a href="https://opensource.newrelic.com/oss-category/#new-relic-experimental"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Experimental.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png"><img alt="New Relic Open Source experimental project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png"></picture></a>
+<a href="https://opensource.newrelic.com/oss-category/#community-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"><img alt="New Relic Open Source community project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"></picture></a>
 
 
 ![GitHub forks](https://img.shields.io/github/forks/newrelic/newrelic-java-rmi?style=social)
@@ -13,7 +13,7 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/newrelic/newrelic-java-rmi)
 ![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic/newrelic-java-rmi)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/newreli/newrelic-java-rmi)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic/newrelic-java-rmi)
 ![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic/newrelic-java-rmi)
 
 
@@ -39,9 +39,9 @@ See RMI calls as an external service.
 ### Server
 See a transaction for the RMI class and method call.   
 
-
-
 ## Building
+
+Make sure you have OpenJDK 1.8 installed.
 
 If you make changes to the instrumentation code and need to build the instrumentation jars, follow these steps
 1. Set environment variable NEW_RELIC_EXTENSIONS_DIR.  Its value should be the directory where you want to build the jars (i.e. the extensions directory of the Java Agent).   
