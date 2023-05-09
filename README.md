@@ -41,8 +41,10 @@ See a transaction for the RMI class and method call.
 
 ### Sample RMI Sample
 A Sample is available to explore the RMI Transaction.
-Sample Source:   example/newrelic-java-rmi-demo
-Sample User Guide : docs/rmi_sample_userguide.pdf
+#### Sample Source  
+                         example/newrelic-java-rmi-demo
+#### Sample User Guide
+                         docs/rmi_sample_userguide.pdf
 
 ## Building
 
