@@ -15,7 +15,7 @@ jobs:
       with:
           java-version: 8
     - name: Setup Gradle to generate and submit dependency graphs
-      uses: gradle/gradle-build-action@dependency-graph
+      uses: gradle/gradle-build-action@v2.6.1
       with:
         dependency-graph: generate-and-submit
     - name: Run a build, generating the dependency graph snapshot which will be submitted
