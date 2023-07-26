@@ -17,6 +17,7 @@ dependencies {
 
 jar {
   manifest {
+
     attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.rmi'
     attributes 'Implementation-Vendor': 'New Relic Labs'
     attributes 'Implementation-Vendor-Id': 'com.newrelic.labs'

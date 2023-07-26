@@ -1,6 +1,5 @@
 <a href="https://opensource.newrelic.com/oss-category/#community-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"><img alt="New Relic Open Source community project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"></picture></a>
 
-
 ![GitHub forks](https://img.shields.io/github/forks/newrelic/newrelic-java-rmi?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/newrelic/newrelic-java-rmi?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/newrelic/newrelic-java-rmi?style=social)
@@ -39,6 +38,13 @@ See RMI calls as an external service.
 ### Server
 See a transaction for the RMI class and method call.   
 
+### Sample RMI Sample
+A Sample is available to explore the RMI Transaction.
+#### Sample Source  
+                         example/newrelic-java-rmi-demo
+#### Sample User Guide
+                         docs/rmi_sample_userguide.pdf
+
 ## Building
 
 Make sure you have OpenJDK 1.8 installed.
@@ -54,7 +60,7 @@ b. To build all jars, run the command: gradlew clean install
 
 New Relic has open-sourced this project. This project is provided AS-IS WITHOUT WARRANTY OR DEDICATED SUPPORT. Issues and contributions should be reported to the project here on GitHub.
 
->We encourage you to bring your experiences and questions to the [Explorers Hub](https://discuss.newrelic.com) where our community members collaborate on solutions and new ideas.
+>We encourage you to bring your experiences and questions to the [Explorers Hub](https://forum.newrelic.com) where our community members collaborate on solutions and new ideas.
 
 ## Contributing
 
