@@ -37,6 +37,7 @@ public class CharacterCountServlet extends HttpServlet {
             out.println("Character count: " + count);
         } catch (Exception e) {
             out.println("Error: " + e.getMessage());
+            response.setStatus(500);
         }
     }
 }
